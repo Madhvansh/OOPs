@@ -1,43 +1,95 @@
-# Compiled Java class files
+# =====================================================
+# Java & Build artifacts
+# =====================================================
+# Compiled class files
 *.class
 
 # Package files
 *.jar
 *.war
+*.ear
 
-# Logs
-*.log
+# Generated archives
+*.zip
+*.tar
 
-# Maven / Gradle
+# Build directories
 /target/
 /build/
+/out/
 
+# Gradle
+/.gradle/
+gradle-app.setting
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# =====================================================
 # IDEs and editors
+# =====================================================
+# IntelliJ IDEA
 .idea/
 *.iml
-.project
+*.iws
+out/
+
+# Eclipse
+.metadata/
 .classpath
+.project
 .settings/
+bin/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+
+# VS Code
 .vscode/
 
-# OS files
+# =====================================================
+# OS and tooling
+# =====================================================
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# Temporary files
+# Logs and temporary files
+*.log
 *.tmp
+*.swp
 *~
+
+# Coverage reports
+coverage/
+*.lcov
 
 # Backup files
 *.bak
 
-# NetBeans
-nbproject/private/
+# Docker
+Dockerfile
+docker-compose.yml
 
-# Eclipse
-bin/
+# =====================================================
+# Test / Audit
+# =====================================================
+# JaCoCo
+jacoco.exec
 
-# IntelliJ
-out/
+# =====================================================
+# Notes
+# - Add `target/` or `build/` if you use Maven/Gradle respectively
+# - Keep this file updated as you add new tools (IDE/build/test)
+# =====================================================
 # Compiled Java class files
 *.class
