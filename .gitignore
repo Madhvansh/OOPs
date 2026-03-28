@@ -1,2 +1,43 @@
 # Compiled Java class files
 *.class
+
+# Package files
+*.jar
+*.war
+
+# Logs
+*.log
+
+# Maven / Gradle
+/target/
+/build/
+
+# IDEs and editors
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*~
+
+# Backup files
+*.bak
+
+# NetBeans
+nbproject/private/
+
+# Eclipse
+bin/
+
+# IntelliJ
+out/
+# Compiled Java class files
+*.class
